@@ -1,0 +1,19 @@
+{
+    "name": "pr/contact",
+    "description": "This is for sending email and store query to database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "prvekariya",
+            "email": "pratik.ce.268@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pr\\Contact\\": "src/"
+        }
+    }
+}
