@@ -1,10 +1,10 @@
 <?php
 
-namespace Pr\Contact\Http\Controllers;
+namespace Prvekariya\Contact\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Pr\Contact\Http\Models\Contact;
-use Pr\Contact\Mail\ContactMailable;
+use Prvekariya\Contact\Http\Models\Contact;
+use Prvekariya\Contact\Mail\ContactMailable;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller

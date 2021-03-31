@@ -1,5 +1,5 @@
 <?php
-namespace Pr\Contact;
+namespace Prvekariya\Contact;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pr\Contact\Http\Models;
+namespace Prvekariya\Contact\Http\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

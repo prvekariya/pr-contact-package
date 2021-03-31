@@ -1,5 +1,5 @@
 {
-    "name": "pr/contact",
+    "name": "prvekariya/contact",
     "description": "This is for sending email and store query to database.",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,14 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Pr\\Contact\\": "src/"
+            "Prvekariya\\Contact\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prvekariya\\Contact\\ContactServiceProvider"
+            ],
+        }
+    },
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pr\Contact\Mail;
+namespace Prvekariya\Contact\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
